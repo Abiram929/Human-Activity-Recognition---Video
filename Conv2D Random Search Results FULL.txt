@@ -1,0 +1,97 @@
+Search space summary
+Default search space size: 5
+Conv2D Units (Int)
+{'default': None, 'conditions': [], 'min_value': 32, 'max_value': 256, 'step': 32, 'sampling': None}
+Conv2D Layers (Int)
+{'default': None, 'conditions': [], 'min_value': 1, 'max_value': 4, 'step': 1, 'sampling': None}
+Fully Connected Layers (Int)
+{'default': None, 'conditions': [], 'min_value': 1, 'max_value': 3, 'step': 1, 'sampling': None}
+Dense Units (Int)
+{'default': None, 'conditions': [], 'min_value': 32, 'max_value': 512, 'step': 32, 'sampling': None}
+learning_rate (Choice)
+{'default': 0.01, 'conditions': [], 'values': [0.01, 0.001, 0.0001], 'ordered': True}
+
+Results summary
+Results in project/HAR
+Showing 10 best trials
+Objective(name='val_loss', direction='min')
+Trial summary
+Hyperparameters:
+Conv2D Units: 64
+Conv2D Layers: 4
+Fully Connected Layers: 2
+Dense Units: 288
+learning_rate: 0.0001
+Score: 0.006026515504345298
+Trial summary
+Hyperparameters:
+Conv2D Units: 96
+Conv2D Layers: 4
+Fully Connected Layers: 1
+Dense Units: 160
+learning_rate: 0.0001
+Score: 0.014479867648333311
+Trial summary
+Hyperparameters:
+Conv2D Units: 64
+Conv2D Layers: 3
+Fully Connected Layers: 3
+Dense Units: 96
+learning_rate: 0.001
+Score: 0.025762727484107018
+Trial summary
+Hyperparameters:
+Conv2D Units: 192
+Conv2D Layers: 3
+Fully Connected Layers: 2
+Dense Units: 224
+learning_rate: 0.01
+Score: 0.029207908548414707
+Trial summary
+Hyperparameters:
+Conv2D Units: 64
+Conv2D Layers: 1
+Fully Connected Layers: 3
+Dense Units: 224
+learning_rate: 0.01
+Score: 0.03363095736131072
+Trial summary
+Hyperparameters:
+Conv2D Units: 160
+Conv2D Layers: 4
+Fully Connected Layers: 1
+Dense Units: 64
+learning_rate: 0.01
+Score: 0.03393132984638214
+Trial summary
+Hyperparameters:
+Conv2D Units: 128
+Conv2D Layers: 1
+Fully Connected Layers: 1
+Dense Units: 480
+learning_rate: 0.001
+Score: 0.03743666037917137
+Trial summary
+Hyperparameters:
+Conv2D Units: 224
+Conv2D Layers: 3
+Fully Connected Layers: 1
+Dense Units: 288
+learning_rate: 0.01
+Score: 0.04148008953779936
+Trial summary
+Hyperparameters:
+Conv2D Units: 64
+Conv2D Layers: 3
+Fully Connected Layers: 3
+Dense Units: 416
+learning_rate: 0.001
+Score: 0.047470130026340485
+Trial summary
+Hyperparameters:
+Conv2D Units: 32
+Conv2D Layers: 3
+Fully Connected Layers: 3
+Dense Units: 128
+learning_rate: 0.01
+Score: 0.06544985622167587
